@@ -1,0 +1,466 @@
+html{
+    background-color: #F1E2F6;
+    width:100%;
+}
+body{
+
+    height: 1500px;
+    background-color: #F1E2F6;
+    margin:0px;
+    background-image: url(origin/0.png);
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+    background-position:right bottom;
+    
+
+}
+
+
+.raindrop{
+    position: absolute;
+    width: 6px;
+    height: 8px;
+    background-color: #99a9bf;
+    clip-path: ellipse(10% 30% at 50% 50%);
+    transform: scale(8);
+    opacity: 0;
+    animation:move 1.2s cubic-bezier(0.54,0,0.18,0.34) infinite;
+}
+
+@keyframes move {
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+       
+        transform:translate3d(10px,100vh,-10px);
+    }
+}
+.topnav{
+
+    color: #ffffff;
+    background-color: #8D9BC0;
+    height: 120px;
+    z-index: -1;
+    width:100%;
+
+}
+
+.topnav img{
+
+    
+    max-height: 115px;
+}
+
+ul li{
+    writing-mode: vertical-lr ;
+    display: inline;
+    
+    text-decoration: none;
+    list-style-type: none;
+    
+    float: right;
+    margin: -120px 0px 0px 0px ;
+}
+
+.list1 {
+    width: 99px;
+    height: 308px;
+    margin:-150px 20px 0px;
+    background-color: #AFB7FF;
+    
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 60px 60px;
+}
+
+.list1 a{
+    font-family: Microsoft JhengHei;
+    color:#ffffff;
+    font-size: 64px;
+    margin:35px 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.list2 {
+    width: 99px;
+    height: 308px;
+    margin:-150px 20px 0px;
+    background-color: #4B54A5;
+    
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 60px 60px;
+}
+
+.list2 a{
+    font-family: Microsoft JhengHei;
+    color:#ffffff;
+    font-size: 64px;
+    margin:35px 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.logo{
+
+    margin:0px 0px 0px 333px;
+}
+
+.color{
+    background-color:  #F1E2F6;
+}
+
+.test{
+
+    margin:200px 0px 150px;
+}
+
+
+.roll{
+    width: 810px;
+height:110px;
+background-color: #9EC4E7;
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;
+margin: 8px 90px 8px;
+padding:40px;
+
+
+}
+
+.stars{
+    display: inline;
+    color:#ffffff;
+font-size: 58px;
+font-family: Microsoft JhengHei;
+margin:30px;
+
+}
+
+
+.think{
+
+    margin:-60px 0px 0px 180px;
+
+}
+.think img{
+    
+    max-width: 67px ;
+    margin:0px 10px
+    
+    
+
+}
+
+
+footer{
+
+    background-color: #2F3651;
+    width:100%;
+    padding:100px;
+    color:#ffffff;
+    font-family: Microsoft JhengHei;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:768px){
+
+    html{
+        background-color: #F1E2F6;
+        width:100%;
+    }
+    body{
+    
+        height: 1500px;
+        background-color: #F1E2F6;
+        margin:0px;
+        background-image: url(origin/0.png);
+        background-repeat: no-repeat;
+        background-size: 800px auto;
+        background-position:right bottom;
+    
+    }
+    .topnav{
+    
+        color: #ffffff;
+        background-color: #8D9BC0;
+        height: 120px;
+        z-index: -1;
+        width:100%;
+    
+    }
+    
+    .topnav img{
+    
+        
+        max-height: 125px;
+    }
+    
+    ul li{
+        writing-mode: vertical-lr ;
+        display: inline;
+        
+        text-decoration: none;
+        list-style-type: none;
+        
+        float: right;
+        margin: -120px 0px 0px 0px ;
+    }
+    
+    .list1 {
+        width: 99px;
+        height: 308px;
+        margin:-150px 10px 0px;
+        background-color: #AFB7FF;
+        padding:0px 0px 0px 10px;
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list1 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 64px;
+        margin:35px 20px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .list2 {
+        width: 99px;
+        height: 308px;
+        margin:-150px 20px 0px;
+        background-color: #4B54A5;
+        
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list2 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 64px;
+        margin:35px 20px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    
+    
+    .logo{
+    
+        margin:0px 0px 0px 130px;
+    }
+    
+    .color{
+        background-color:  #F1E2F6;
+    }
+    
+    .test{
+    
+        margin:200px 0px 150px;
+    }
+    
+    
+    .roll{
+        width: 600px;
+    height: 60px;
+    background-color: #9EC4E7;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    margin: 8px 90px 8px;
+    padding:30px;
+    
+    
+    }
+    
+    .stars{
+        display: inline;
+        color:#ffffff;
+    font-size: 38px;
+    font-family: Microsoft JhengHei;
+    margin:30px;
+    
+    }
+    
+    
+    .think{
+    
+        margin:-50px 0px 0px 140px;
+    
+    }
+    .think img{
+        
+        max-width: 67px ;
+        margin:0px 10px
+        
+        
+    
+    }
+    
+    
+    footer{
+    
+        background-color: #2F3651;
+        width:100%;
+        padding:50px;
+        color:#ffffff;
+        font-family: Microsoft JhengHei;
+        font-size: 18px;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+    html{
+        background-color: #F1E2F6;
+    }
+    body{
+    
+        height: 1500px;
+        background-color: #F1E2F6;
+        background-image: url(origin/0.png);
+        background-repeat: no-repeat;
+        background-size: 200px auto;
+        background-position:right bottom;
+    
+    }
+    .topnav{
+    
+        color: #ffffff;
+        background-color: #8D9BC0;
+        height: 60px;
+        z-index: -1;
+        width:100%;
+    
+    }
+    
+    .topnav img{
+    
+        max-height: 50px;
+    }
+    
+    ul li{
+        writing-mode: vertical-lr ;
+        display: inline;
+        
+        text-decoration: none;
+        list-style-type: none;
+        
+        float: right;
+        margin: 0px 0px 0px 0px ;
+    }
+    
+    .list1 {
+        width: 25px;
+        height: 80px;
+        margin:-80px 10px 0px;
+        background-color: #AFB7FF;
+        padding:0px;
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list1 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 4px;
+        margin:20px 0px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .list2 {
+        width: 25px;
+        height: 80px;
+        margin:-80px 50px 0px;
+        background-color: #4B54A5;
+        
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list2 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 4px;
+        margin:20px 20px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    
+    
+    .logo{
+    
+        margin:0px 50px ;
+    }
+    
+    .color{
+        background-color:  #F1E2F6;}
+    
+    .test{
+    
+        margin:00px 0px 150px;
+    }
+    
+    
+    .roll{
+        width: 200px;
+    height:25px;
+    background-color: #9EC4E7;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    margin: 8px 20px 8px;
+    padding:20px 0px;
+    
+    
+    }
+    
+    .stars{
+        display: inline;
+        color:#ffffff;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+    margin:0px 0px 0px 10px;
+    
+    }
+    
+    
+    .think{
+    
+        margin:-20px 0px 0px 70px;
+    
+    }
+    .think img{
+        
+        max-width: 20px ;
+        margin:0px 0px
+        
+        
+    
+    }
+    
+    
+    footer{
+    
+        background-color: #2F3651;
+        width:100%;
+        padding:10px;
+        color:#ffffff;
+        font-family: Microsoft JhengHei;
+        font-size: 8px;
+    }
+
+}

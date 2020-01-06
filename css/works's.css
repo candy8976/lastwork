@@ -1,0 +1,359 @@
+html{
+    background-color: #F1E2F6;
+}
+body{
+
+    height: 1500px;
+    background-color: #F1E2F6;
+    margin:0px;
+    background-image: url(origin/0.png);
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+    background-position:right bottom;
+
+}
+
+
+.raindrop{
+    position: absolute;
+    width: 6px;
+    height: 8px;
+    background-color: #99a9bf;
+    clip-path: ellipse(10% 30% at 50% 50%);
+    transform: scale(8);
+    opacity: 0;
+    animation:move 1.2s cubic-bezier(0.54,0,0.18,0.34) infinite;
+}
+
+@keyframes move {
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+       
+        transform:translate3d(10px,100vh,-10px);
+    }
+}
+.topnav{
+
+    color: #ffffff;
+    background-color: #8D9BC0;
+    height: 120px;
+    z-index: -1;
+    width:100%;
+
+}
+
+.topnav img{
+
+    
+    max-height: 120px;
+}
+
+ul li{
+    writing-mode: vertical-lr ;
+    display: inline;
+    
+    text-decoration: none;
+    list-style-type: none;
+    
+    float: right;
+    margin: -120px 0px 0px 0px ;
+}
+
+.list1 {
+    width: 99px;
+    height: 308px;
+    margin:-150px 20px 0px;
+    background-color: #AFB7FF;
+    
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 60px 60px;
+}
+
+.list1 a{
+    font-family: Microsoft JhengHei;
+    color:#ffffff;
+    font-size: 64px;
+    margin:35px 14px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.list2 {
+    width: 99px;
+    height: 308px;
+    margin:-150px 20px 0px;
+    background-color: #4B54A5;
+    
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 60px 60px;
+}
+
+.list2 a{
+    font-family: Microsoft JhengHei;
+    color:#ffffff;
+    font-size: 64px;
+    margin:35px 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.logo{
+
+    margin:0px 333px ;
+}
+
+.color{
+    background-color:  #F1E2F6;}
+
+
+
+.flash{
+
+    max-width: 300px;
+    margin:65px 75px 35px 45px
+}
+
+
+footer{
+
+    background-color: #2F3651;
+    width:100%;
+    padding:50px 100px;
+    color:#ffffff;
+    font-family: Microsoft JhengHei;
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px){
+
+    html{
+        background-color: #F1E2F6;
+    }
+    body{
+    
+        height: 1500px;
+        background-color: #F1E2F6;
+        margin:0px;
+        background-image: url(origin/0.png);
+        background-repeat: no-repeat;
+        background-size: 800px auto;
+        background-position:right bottom;
+    
+    }
+    .topnav{
+    
+        color: #ffffff;
+        background-color: #8D9BC0;
+        height: 120px;
+        z-index: -1;
+        width:100%;
+    
+    }
+    
+    .topnav img{
+    
+        
+        max-height: 120px;
+    }
+    
+    ul li{
+        writing-mode: vertical-lr ;
+        display: inline;
+        
+        text-decoration: none;
+        list-style-type: none;
+        
+        float: right;
+        margin: -120px 0px 0px 0px ;
+    }
+    
+    .list1 {
+        width: 99px;
+        height: 308px;
+        margin:-150px 20px 0px;
+        background-color: #AFB7FF;
+        
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list1 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 64px;
+        margin:35px 14px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .list2 {
+        width: 99px;
+        height: 308px;
+        margin:-150px 20px 0px;
+        background-color: #4B54A5;
+        
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list2 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 64px;
+        margin:35px 20px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    
+    
+    .logo{
+    
+        margin:0px 333px ;
+    }
+.word{
+
+margin:200px;
+
+
+}
+    
+    .flash{
+    
+        max-width: 300px;
+        margin:65px 75px 35px 45px
+    }
+    
+    
+    footer{
+    
+        background-color: #2F3651;
+        width:100%;
+        padding:50px 100px;
+        color:#ffffff;
+        font-family: Microsoft JhengHei;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:320px){
+
+    html{
+        background-color: #F1E2F6;
+    }
+    body{
+    
+        height: 1500px;
+        background-color: #F1E2F6;
+        background-image: url(origin/0.png);
+        background-repeat: no-repeat;
+        background-size: 200px auto;
+        background-position:right bottom;
+    
+    }
+    .topnav{
+    
+        color: #ffffff;
+        background-color: #8D9BC0;
+        height: 60px;
+        z-index: -1;
+        width:100%;
+    
+    }
+    
+    .topnav img{
+    
+        max-height: 50px;
+    }
+    
+    ul li{
+        writing-mode: vertical-lr ;
+        display: inline;
+        
+        text-decoration: none;
+        list-style-type: none;
+        
+        float: right;
+        margin: 0px 0px 0px 0px ;
+    }
+    
+    .list1 {
+        width: 25px;
+        height: 80px;
+        margin:-80px 10px 0px;
+        background-color: #AFB7FF;
+        
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list1 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 4px;
+        margin:20px 20px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .list2 {
+        width: 25px;
+        height: 80px;
+        margin:-80px 50px 0px;
+        background-color: #4B54A5;
+        
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 0px 60px 60px;
+    }
+    
+    .list2 a{
+        font-family: Microsoft JhengHei;
+        color:#ffffff;
+        font-size: 4px;
+        margin:20px 20px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    
+    
+    .logo{
+    
+        margin:0px 10px ;
+    }
+    
+    .color{
+        background-color:  #F1E2F6;}
+    
+    
+    .flash{
+    
+        max-width: 210px;
+        margin:20px;
+    }
+    
+    
+    footer{
+    
+        background-color: #2F3651;
+        width:100%;
+        padding:10px 10px;
+        color:#ffffff;
+        font-family: Microsoft JhengHei;
+        font-size: 8px;
+    }
+    
+
+}
